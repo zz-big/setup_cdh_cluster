@@ -49,7 +49,7 @@
       mysql_driver: mysql-connector-java-5.1.47.jar
     # 各种链接
     url:
-      cloudera_baseurl: https://archive.cloudera.com/cm6/6.3.1/redhat7/yum/
+      cloudera_baseurl: http://cdh1/cm/
   remote_user: root
 
   tasks:
@@ -120,8 +120,8 @@
 
     # 各种链接
     url:
-      cloudera_baseurl: https://archive.cloudera.com/cm6/6.3.1/redhat7/yum/
-      cloudera_baseurl_local: "http://{{local_yum_repo}}/cloudera-repos/cm6/"
+      cloudera_baseurl: http://cdh1/cm/
+      cloudera_baseurl_local: "http://{{local_yum_repo}}/cm/"
     password:
       scm: SuperMan2020#h
 

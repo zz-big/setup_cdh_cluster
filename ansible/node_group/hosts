@@ -44,18 +44,17 @@
 
 
 
+[master_node]
+cdh1
+
 [all_node]
 cdh1
 cdh2
 cdh3
-cdh4
-cdh5
 
 [compute_node]
 cdh2
 cdh3
-cdh4
-cdh5
 
 [test]
 cdh1

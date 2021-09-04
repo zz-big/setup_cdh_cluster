@@ -32,22 +32,22 @@
       state: present
 
   # createrepo 在创建本地 yum 源时使用
-  - name: 安装常见工具命令
-    yum:
-      name:
-        - htop
-        - iotop
-        - iftop
-        - vim
-        - sysstat
-        - screen
-      state: present
+#  - name: 安装常见工具命令
+#    yum:
+#      name:
+#        - htop
+#        - iotop
+#        - iftop
+#        - vim
+#        - sysstat
+#        - screen
+#      state: present
 
-  # 更新 yum 现有程序
-  - name: 更新 yum 现有程序
-    yum:
-      name: '*'
-      state: latest
+#  # 更新 yum 现有程序
+#  - name: 更新 yum 现有程序
+#    yum:
+#      name: '*'
+#      state: latest
 
   # 清空 /opt/setup_cdh
 #  - name: 清空 /opt/setup_cdh
